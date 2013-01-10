@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN"    "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd" [
+  <!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+  <!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+  <!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+  <!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+  <!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+]>
+<svg>
+  <variableSets  xmlns="&ns_vars;">
+    <variableSet  locked="none" varSetName="binding1">
+      <variables>
+      
+        <variable  varName="CustomerID" trait="textcontent" category="&ns_flows;"></variable>
+      
+        <variable  varName="BusinessName" trait="textcontent" category="&ns_flows;"></variable>
+      
+        <variable  varName="Telephone" trait="textcontent" category="&ns_flows;"></variable>
+      
+        <variable  varName="PrimaryStore" trait="textcontent" category="&ns_flows;"></variable>
+      
+      </variables>
+
+      <v:sampleDataSets xmlns="&ns_custom;" xmlns:v="&ns_vars;">
+      
+        <v:sampleDataSet  dataSetName="6005996">
+        
+          <CustomerID><p>6005996</p></CustomerID>
+        
+          <BusinessName><p>Tousignant Industries</p></BusinessName>
+        
+          <Telephone><p>(978) 405-0017</p></Telephone>
+        
+          <PrimaryStore><p>1</p></PrimaryStore>
+        
+        </v:sampleDataSet>
+      
+        <v:sampleDataSet  dataSetName="3006332">
+        
+          <CustomerID><p>3006332</p></CustomerID>
+        
+          <BusinessName><p>Shane Halsey Painting</p></BusinessName>
+        
+          <Telephone><p>(603) 279-5049</p></Telephone>
+        
+          <PrimaryStore><p>3</p></PrimaryStore>
+        
+        </v:sampleDataSet>
+      
+        <v:sampleDataSet  dataSetName="3000009">
+        
+          <CustomerID><p>3000009</p></CustomerID>
+        
+          <BusinessName><p>Ruel&#x27;s Painting</p></BusinessName>
+        
+          <Telephone><p>(603) 393-4910</p></Telephone>
+        
+          <PrimaryStore><p>3</p></PrimaryStore>
+        
+        </v:sampleDataSet>
+      
+        <v:sampleDataSet  dataSetName="141004004">
+        
+          <CustomerID><p>141004004</p></CustomerID>
+        
+          <BusinessName><p>Mike&#x27;s Painting</p></BusinessName>
+        
+          <Telephone><p>(603) 235-0629</p></Telephone>
+        
+          <PrimaryStore><p>3</p></PrimaryStore>
+        
+        </v:sampleDataSet>
+      
+        <v:sampleDataSet  dataSetName="4000543">
+        
+          <CustomerID><p>4000543</p></CustomerID>
+        
+          <BusinessName><p>Henry Hamel &amp; Sons</p></BusinessName>
+        
+          <Telephone><p>(978) 632-9080</p></Telephone>
+        
+          <PrimaryStore><p>4</p></PrimaryStore>
+        
+        </v:sampleDataSet>
+      
+        <v:sampleDataSet  dataSetName="4000607">
+        
+          <CustomerID><p>4000607</p></CustomerID>
+        
+          <BusinessName><p>Gardner Housing Authority</p></BusinessName>
+        
+          <Telephone><p>(978) 632-6627</p></Telephone>
+        
+          <PrimaryStore><p>4</p></PrimaryStore>
+        
+        </v:sampleDataSet>
+      
+      </v:sampleDataSets>
+    </variableSet>
+  </variableSets>
+</svg>

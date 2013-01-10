@@ -1,0 +1,13 @@
+{
+  "name": "aixml",
+  "version": "0.0.1",
+  "preferGlobal": true,
+  "description": "Generate an Illustrator XML Variable Library file from a csv",
+  "main": "lib/main.js",
+  "bin": { "aixml": "./lib/main.js" },
+  "dependencies": {
+    "csv": ">=0.2",
+    "optimist": "",
+    "underscore": ""
+  }
+}
